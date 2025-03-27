@@ -3,7 +3,7 @@ import Country from "../Country/Country";
 
 const Countries = ({ countriesPromise }) => {
   const countries = use(countriesPromise);
-  console.log(countries);
+//   console.log(countries);
   return (
     <div>
       <h1 className="text-cyan-400 text-center mb-10 font-bold md:text-6xl text-3xl">
